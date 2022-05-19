@@ -15,9 +15,9 @@ public class Cliente {
 
     private String apellidos;
 
-    private Long celuar;
+    private Long celular;
 
-    private String direcccion;
+    private String direccion;
 
     @Column(name = "correo_electronico")
     private String correoElectronico;
@@ -50,20 +50,20 @@ public class Cliente {
         this.apellidos = apellidos;
     }
 
-    public Long getCeluar() {
-        return celuar;
+    public Long getCelular() {
+        return celular;
     }
 
-    public void setCeluar(Long celuar) {
-        this.celuar = celuar;
+    public void setCelular(Long celuar) {
+        this.celular = celuar;
     }
 
-    public String getDirecccion() {
-        return direcccion;
+    public String getDireccion() {
+        return direccion;
     }
 
-    public void setDirecccion(String direcccion) {
-        this.direcccion = direcccion;
+    public void setDireccion(String direcccion) {
+        this.direccion = direcccion;
     }
 
     public String getCorreoElectronico() {
